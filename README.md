@@ -1,44 +1,41 @@
-Hands-on-II
-Boston House Price Classification and Regression Models
-Project Overview
-In this project, I have built both classification and regression models using the Boston House price dataset from Kaggle: https://www.kaggle.com/code/adritpal08/boston-house-price-prediction. 
-The goal of this project is to explore and predict house prices using different machine learning techniques.
+# Boston House Price Classification and Regression Models
 
-Models Developed
-Classification Models:
-Logistic Regression
+## Project Overview
+This project implements both classification and regression models using the Boston House price dataset from [Kaggle](https://www.kaggle.com/code/adritpal08/boston-house-price-prediction). The goal is to explore and predict house prices using various machine learning techniques.
 
-Decision Tree
+## Models Developed
 
-Random Forest Classifier
+### Classification Models
+- Logistic Regression
+- Decision Tree
+- Random Forest Classifier
+- Gradient Boosting Classifier
+- K-Nearest Neighbors (KNN)
 
-Gradient Boosting Classifier
+### Regression Models
+- Linear Regression
+- Random Forest Regressor
+- Ridge and Lasso Regression
+- Gradient Boosting Regressor
+- Ridge, Lasso Regression and Elastic Regressions
 
-K-Nearest Neighbors (KNN)
+All models were evaluated using appropriate metrics:
+- **Classification**: Accuracy, Precision, Recall, F1-score
+- **Regression**: Mean Squared Error (MSE), R-squared
 
-Regression Models:
-Linear Regression
+## Why Use Google Colab?
+This project is implemented in Google Colab, offering several advantages for data science and machine learning projects:
 
-Random Forest Regressor
+### Key Benefits
+- **Free GPU/TPU Access**: Accelerate model training with complimentary GPU and TPU resources
+- **Interactive Notebooks**: Write and execute code in an interactive environment, perfect for experimentation
+- **Zero Setup**: No local installation or environment management needed - just open and code!
 
-Ridge and Lasso Regression
+## Getting Started
+You can explore the entire project and run the code interactively using Google Colab for a smooth and hassle-free experience.
 
-Gradient Boosting Regressor
-
-Ridge, Lasso Regression and Elastic Regressions
-
-Each model was evaluated using appropriate metrics such as accuracy, precision, recall, F1-score for classification, and Mean Squared Error (MSE) and R-squared for regression.
-
-Why Use Google Colab?
-All the code for this project is written in Google Colab, an excellent platform for data science and machine learning projects. I highly recommend using Google Colab due to its user-friendly environment and powerful features:
-
-Free GPU/TPU Access: Speed up your model training with free access to GPUs and TPUs. Interactive Notebooks: Google Colab allows you to write and execute code in an interactive notebook format, making it ideal for quick experimentation. No Setup Required: No need to install software or manage environments. Just open a new notebook and start coding! You can explore the entire project and run the code interactively using Google Colab for a smooth and hassle-free experience.
-
-References:
-https://archive.ics.uci.edu/dataset/2/adult
-
-https://medium.com/analytics-vidhya/building-classification-model-with-python-9bdfc13faa4b
-
-https://www.kaggle.com/code/adritpal08/boston-house-price-prediction
-
-https://github.com/nveerepa/Hands-on-II
+## References
+- [UCI Adult Dataset](https://archive.ics.uci.edu/dataset/2/adult)
+- [Building Classification Model with Python](https://medium.com/analytics-vidhya/building-classification-model-with-python-9bdfc13faa4b)
+- [Boston House Price Prediction - Kaggle](https://www.kaggle.com/code/adritpal08/boston-house-price-prediction)
+- [Project Repository - AIT 664](https://github.com/nveerepa/Hands-on-II)
